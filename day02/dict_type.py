@@ -1,3 +1,5 @@
+import json
+
 adict = {'username':'admin','password':'123456'}
 
 def dict_sel():
@@ -24,8 +26,15 @@ def dict_add():
     ddict =dict(adict,**cdict)
     print(ddict)
 
+def dict_zhuanhuan():
+    dict_str="{'password':'77777','class':'1904'}"
+    str_dict = json.dumps(adict)
+    print(str_dict)
+    print(type(str_dict))
+
 if __name__ == '__main__':
     # dict_sel()
     # dict_updat()
     # dict_del()
-    dict_add()
+    # dict_add()
+    dict_zhuanhuan()
