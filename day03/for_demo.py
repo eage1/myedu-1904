@@ -28,7 +28,7 @@ def jishu():
 def for_for4():
     for i in range(1,10):
         for o in range(1,i+1):
-            print('%sx%s=%s'%(i,o,i*o),end=',')
+            print('%sx%s=%s'%(i,o,i*o),end='  ')
         print('')
 
 
