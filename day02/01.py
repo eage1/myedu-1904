@@ -16,7 +16,7 @@ def dict_add():
 def dict_updat():
     adict['username']='JK'
     print(adict)
-    bdict={'list':[1,2]}
+    bdict={'BG':[1,2]}
     adict.update(bdict)
     print(adict)
 
